@@ -446,22 +446,36 @@ img {
 .socials.social-footer .socials-links:hover {
   background-color: #31d0aa;
 }
+.paragraph-footer-bnb {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
 .form-field {
   display: flex;
   justify-content: space-between;
 }
 .footer-for {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 24px;
 }
 .form-input {
   border: none;
   border: 1px solid #fff;
   border-radius: 4px;
+  line-height: 2;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
   width: 264px;
   height: 40px;
-  background-color: #2e2f42;
+  border: 1px solid #ffffff;
+  background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .footer-button {
