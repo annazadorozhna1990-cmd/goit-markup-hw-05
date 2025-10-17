@@ -454,14 +454,20 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.form-icon {
+  fill: #fff;
+}
 .form-field {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  width: auto;
 }
 .footer-for {
   display: flex;
-  /* align-items: center; */
-  gap: 24px;
+  align-items: center;
+  gap: 16px;
 }
 .form-input {
   border: none;
@@ -469,6 +475,7 @@ img {
   border-radius: 4px;
   line-height: 2;
   color: #ffffff;
+  margin-left: 16px;
   font-size: 12px;
   letter-spacing: 0.04em;
   padding-left: 16px;
@@ -479,6 +486,9 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   margin: 0 auto;
   display: block;
