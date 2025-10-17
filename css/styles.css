@@ -566,7 +566,7 @@ img {
   margin-bottom: 16px;
 }
 .modal-form-field {
-  margin: 8px;
+  margin: 16px;
 }
 .modal-form-label {
   display: block;
@@ -618,6 +618,7 @@ img {
   height: 120px;
   outline: transparent;
   color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 
   font-weight: 400;
   font-size: 12px;
