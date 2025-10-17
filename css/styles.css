@@ -567,6 +567,7 @@ img {
 }
 .modal-form-field {
   margin: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   display: block;
