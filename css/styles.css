@@ -456,13 +456,10 @@ img {
 }
 .form-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 .form-field {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 24px;
-  width: auto;
+  margin-left: auto;
 }
 .footer-for {
   display: flex;
@@ -490,8 +487,7 @@ img {
   justify-content: center;
   align-items: center;
   border: none;
-  margin: 0 auto;
-  display: block;
+  margin-left: 24px;
 
   font-weight: 500;
   font-size: 16px;
