@@ -664,11 +664,37 @@ img {
   margin-bottom: 24px;
 }
 .agreement-checkbox {
+  transition: 200ms ease-in;
+  transition-property: border-color, background-color;
+  margin-right: 8px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  color: transparent;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+}
+.checkbox:checked + .agreement-wrraper > .agreement-checkbox {
+  background-color: #404bbf;
+  border-radius: 2px;
+  border: 1px solid #404bbf;
+  color: #ffffff;
+}
+.agreement-checkbox-icon {
+  fill: currentColor;
+}
+.agreement-wrraper {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.accent-text-agreement {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
