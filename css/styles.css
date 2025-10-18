@@ -664,23 +664,25 @@ img {
   margin-bottom: 24px;
 }
 .agreement-checkbox {
-  transition: 200ms ease-in;
-  transition-property: border-color, background-color;
   margin-right: 8px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  color: transparent;
+  fill: transparent;
   width: 16px;
   height: 16px;
   border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .checkbox:checked + .agreement-wrraper > .agreement-checkbox {
-  background-color: #404bbf;
   border-radius: 2px;
+  border: none;
   border: 1px solid #404bbf;
-  color: #ffffff;
+  background-color: #404bbf;
+  fill: #f4f4fd;
 }
 .agreement-checkbox-icon {
   fill: currentColor;
@@ -697,4 +699,12 @@ img {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
+}
+.form-agreement {
+  margin-bottom: 24px;
+}
+.footer-button.modal {
+  display: block;
+  min-width: 169px;
+  height: 56px;
 }
