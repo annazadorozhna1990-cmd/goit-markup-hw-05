@@ -3,6 +3,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+body:has(.backdrop.is-open) {
+  overflow: hidden;
+}
+
 ul,
 ol {
   list-style-type: none;
@@ -655,4 +659,16 @@ img {
 }
 .modal-form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+.user-agreement {
+  margin-bottom: 24px;
+}
+.agreement-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
