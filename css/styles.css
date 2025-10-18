@@ -703,8 +703,10 @@ img {
 .form-agreement {
   margin-bottom: 24px;
 }
-.footer-button.modal {
+.footer-button.modal-button-send {
   display: block;
   min-width: 169px;
   height: 56px;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
