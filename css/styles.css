@@ -668,7 +668,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  fill: transparent;
+  color: transparent;
   width: 16px;
   height: 16px;
   border-radius: 2px;
