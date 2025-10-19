@@ -668,7 +668,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  color: transparent;
+  fill: transparent;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -678,14 +678,13 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .checkbox:checked + .agreement-wrapper > .agreement-checkbox {
-  border-radius: 2px;
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
 }
-.agreement-checkbox-icon {
+/* .agreement-checkbox-icon {
   fill: currentColor;
-}
+} */
 .agreement-wrapper {
   font-weight: 400;
   font-size: 12px;
@@ -704,6 +703,7 @@ img {
 }
 .footer-button.modal-button-send {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
